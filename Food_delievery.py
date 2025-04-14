@@ -159,8 +159,8 @@ while True:
         
     if resp==3:
         for i in range(len(boy_list.items)):
-            print(i+1, menu.items[i].name)
-            print("Phone Number: ",menu.items[food_num].number)
+            print(i+1, boy_list.items[i].name)
+            print("Phone Number: ",boy_list.items[i].number)
     
     
     if resp==1:
