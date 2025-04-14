@@ -35,6 +35,8 @@ python your_script_name.py
 4. Selects priority and payment
 5. Receives a detailed bill and confirmation
 
+# Note
+Due to some unknown reason, it might happen that it shows error for the first time. If it happens please run the file again.
 
 # Author
 Ayush Chaudhary
