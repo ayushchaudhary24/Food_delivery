@@ -349,7 +349,7 @@ while True:
 
                 
               
-                print(colored(f"Mr. {delivery_partner} is {delivery_boy_dist:.2f} meters away", "red"))
+                print(colored(f"Mr. {delivery_partner} is delivering your order. He is currently {delivery_boy_dist:.2f} meters away", "red"))
                 
             else:
                 print("All drivers busy. Your order will be assigned soon.")
