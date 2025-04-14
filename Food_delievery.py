@@ -168,8 +168,12 @@ while True:
         username = input(colored("Enter Your Name: ","green"))
         print("Enter Your Location")
         print("Our service are limited to cordinates (15,0),(15,15), (-15,15), (-15,-15).\n Kindly Enter the cordinates within the range")
-        user_x = int(input(colored("X Cordinate: ","grey")))
-        user_y = int(input(colored("Y Cordinate: ","grey")))
+        try:
+            user_x = int(input(colored("X Cordinate: ","grey")))
+            user_y = int(input(colored("Y Cordinate: ","grey")))
+        except:
+            print(colored("You Enter Wrong Number","red"))
+            continue
         print("\n")
         
         
