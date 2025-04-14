@@ -22,23 +22,13 @@ Formatted Terminal Output using colorama
 Install required packages using pip: pip install colorama termcolor
 # How to Run
 Simply run the Python file in your terminal:
-
 python your_script_name.py
 
-Location-Based Services
-Accepts user location (x, y)
-
-Displays restaurants within a fixed service radius
-Assigns delivery boy closest to the customer
-
-🍽️ Menu & Pricing
-20 predefined dishes
-
-💳 Payment Modes
+# Payment Modes
 1. Cash on Delivery (COD)
 2. UPI
 
-🧪 Sample Flow
+# Sample Flow
 1. User selects Order Food
 2. Enters name, coordinates, phone number
 3. Chooses restaurant and dish
@@ -46,6 +36,6 @@ Assigns delivery boy closest to the customer
 5. Receives a detailed bill and confirmation
 
 
-# 👨‍💻 Author
+# Author
 Ayush Chaudhary
 B.Tech, MSE @ IIT Kanpur
